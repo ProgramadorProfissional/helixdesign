@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helix Design</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/index.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">Helix Design</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">Helix Design</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Início</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>Sobre</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link" data-nav-link>Serviços</a>
+          </li>
+
+          <li>
+            <a href="#features" class="navbar-link" data-nav-link>Recursos</a>
+          </li>
+
+          <li>
+            <a href="#faq" class="navbar-link" data-nav-link>Faq</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contato</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="#" class="btn-outline">Vamos conversar</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle has-before">Bem-vindo à nossa agência</p>
+
+            <h1 class="h1 hero-title">Ideias inteligentes para sua marca estão aqui</h1>
+
+            <p class="hero-text">
+              Imagine um espaço onde as mentes mais brilhantes se reúnem, uma sinfonia de criatividade que ressoa em cada projeto. Na nossa agência, cada ideia é uma semente plantada, cultivada com paixão e nutrida com expertise. Estamos aqui para transformar conceitos em realidade, e a sua marca é a tela onde pintamos a visão do sucesso.
+
+
+            </p>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Descubra mais</a>
+
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">Como funciona</span>
+              </button>
+            </div>
+
+          </div>
+
+          <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+            <img src="./assets/images/hero-banner.png" width="650" height="650" alt="hero banner" class="img-cover">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="802" height="654" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2-sm section-title">Nós criamos algumas coisas, projetamos para o seu futuro de sucesso.</h2>
+
+            <p class="section-text">
+              Cada projeto que abraçamos é uma oportunidade de esculpir um caminho único para o seu sucesso. Somos arquitetos de ideias, construindo estruturas sólidas que resistem ao teste do tempo. No coração de nosso processo está a convicção de que o design não é apenas estético, mas uma ferramenta poderosa para impulsionar conquistas.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="has-before">
+                Preço de materiais ou peças adicionais (se necessário)
+              </li>
+
+              <li class="has-before">
+                Custo de transporte para transportar novos materiais/peças
+              </li>
+
+              <li class="has-before">
+                Você receberá uma oferta de devolução de 100% do dinheiro.
+              </li>
+
+            </ul>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Saber mais</a>
+
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">+10 anos de experiência</span>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-O que nós oferecemos-</p>
+
+          <h2 class="h2 section-title text-center">Nossos serviços criativos</h2>
+
+          <p class="section-text text-center">
+            Em um mundo onde a criatividade é a essência da inovação, nossos serviços são a expressão máxima desse universo vibrante e inspirador.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-1.png" width="140" height="140" loading="lazy"
+                    alt="UI/UX Creative Design" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Design criativo UI/UX</h3>
+
+                  <p class="card-text">
+                    No coração do nosso design UI/UX criativo, encontra-se a fusão perfeita entre estética e usabilidade.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Consulte Mais informação</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-2.png" width="140" height="140" loading="lazy" alt="App Development"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Desenvolvimento de aplicativos</h3>
+
+                  <p class="card-text">
+                    Nosso compromisso com o Desenvolvimento de Aplicativos é a força motriz que impulsiona ideias inovadoras para o mundo digital
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Consulte Mais informação</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-3.png" width="140" height="140" loading="lazy"
+                    alt="Professional Content Writer" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Escritor de conteúdo profissional</h3>
+
+                  <p class="card-text">
+                    Na arte da palavra, somos artífices de narrativas que transcendem o ordinário. Como escritores de conteúdo profissional.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Consulte Mais informação</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Design gráfico</h3>
+
+                  <p class="card-text">
+                    Em nosso estúdio de design gráfico, cada pixel é uma paleta de possibilidades, e cada traço é uma expressão de criatividade ilimitada. 
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Consulte Mais informação</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">Iniciar</a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-Porque escolher-nos-</p>
+
+          <h2 class="h2 section-title text-center">Razões para nos escolher</h2>
+
+          <p class="section-text text-center">
+            Priorizamos a transparência e a comunicação clara, mantendo-o informado e envolvido durante todo o processo. 
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="01">01</data>
+
+                <h3 class="h3 card-title">Plug-in de ícone grátis</h3>
+
+                <p class="card-text">
+                  Nosso plug-in de ícone grátis é a ferramenta perfeita para adicionar um toque de personalidade e estilo aos seus projetos, sem custos adicionais. Com uma ampla seleção de ícones que abrangem desde categorias tradicionais até as mais contemporâneas, oferecemos uma biblioteca diversificada para atender às suas necessidades de design.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="02">02</data>
+
+                <h3 class="h3 card-title">Suporte gratuito por 6 meses</h3>
+
+                <p class="card-text">
+                  Nossa oferta de suporte gratuito por seis meses é um compromisso com a excelência no atendimento ao cliente. Ao escolher nossos serviços, não apenas você obtém soluções excepcionais, mas também desfruta de um período estendido de suporte dedicado para garantir uma experiência tranquila e sem complicações.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="03">03</data>
+
+                <h3 class="h3 card-title">Estratégia do Cliente</h3>
+
+                <p class="card-text">
+                  A Estratégia do Cliente é o cerne da nossa abordagem, uma bússola que orienta cada decisão e ação em nosso percurso. Nossa filosofia é centrada na criação de uma parceria sólida e eficaz, onde o sucesso do cliente não é apenas um objetivo, mas a pedra angular de tudo que fazemos.  Essa compreensão é a base sobre a qual construímos estratégias.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="04">04</data>
+
+                <h3 class="h3 card-title">Melhor imagem premium</h3>
+
+                <p class="card-text">
+                  A busca pela melhor imagem premium é uma busca pela perfeição visual, uma fusão de estética excepcional e qualidade excepcional. Em nossa coleção de imagens premium, buscamos não apenas capturar momentos, mas criar obras de arte visuais que transcendam o comum.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="05">05</data>
+
+                <h3 class="h3 card-title">Recursos mais avançados</h3>
+
+                <p class="card-text">
+                  Nossos recursos mais avançados representam a vanguarda da inovação e a promessa de uma experiência excepcional. Ao escolher nossos serviços, você terá acesso a um conjunto robusto de ferramentas e funcionalidades que não apenas atendem, mas superam as demandas mais complexas.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <data class="card-number" value="06">06</data>
+
+                <h3 class="h3 card-title">Preço muito razoável</h3>
+
+                <p class="card-text">
+                  Nosso compromisso é oferecer não apenas excelência, mas também acessibilidade. Ao escolher nossos serviços, você terá a garantia de um preço muito razoável que reflete nosso compromisso em tornar soluções de alta qualidade acessíveis a todos. A transparência é fundamental.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FAQ
+      -->
+
+      <section class="section faq" id="faq" aria-label="frequently asked questions">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Descubra as perguntas frequentes?</h2>
+
+            <a href="#" class="btn btn-primary">Trabalhar juntos</a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    01. Curioso para saber como construir sua própria estratégia de UX? Aqui estão cinco etapas simples.
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Construir uma estratégia de User Experience (UX) é uma jornada fascinante que coloca os usuários no epicentro do design. O ponto de partida crucial é uma compreensão profunda do público-alvo. Pesquisas, entrevistas e análises são ferramentas valiosas para desvendar as necessidades, comportamentos e expectativas dos usuários.
+
+                    Com o conhecimento em mãos, é hora de mapear a jornada do usuário, desde o primeiro contato até a conclusão de ações desejadas.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    02. Aonde uma carreira em UX pode levar você? Agência vs. Interna vs. Freelance?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Entrar no campo da User Experience (UX) é como abrir as portas para uma jornada repleta de possibilidades, e a direção que você escolhe pode moldar sua carreira de maneiras fascinantes.
+
+                    Trabalhar em uma agência de design ou consultoria de UX é uma experiência dinâmica. A diversidade de clientes e projetos oferece desafios diários, construindo um portfólio robusto e ensinando a se adaptar a diferentes demandas.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    03. O que é uma declaração de problema em UX? (E como escrever um?)
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Uma declaração de problema é uma síntese clara e concisa dos desafios que um projeto de UX pretende resolver. Ela define a lacuna entre a situação atual e a ideal, proporcionando foco e direção ao design. <br><br>
+
+                    Compreenda o contexto:
+                    Antes de começar, mergulhe fundo no contexto do problema. Entenda as necessidades dos usuários, os objetivos do negócio e os obstáculos existentes.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    04. Existem várias técnicas que os designers de UX empregam para chegar a uma conclusão sucinta?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Absolutamente! Os designers de UX têm um arsenal de técnicas para chegar a conclusões sucintas e informadas. Vamos dar uma olhada em algumas delas:<br><br>
+
+                    Pesquisa do Usuário:
+                    Conduzir pesquisas, como entrevistas e testes com usuários, é crucial. Entender as necessidades, comportamentos e frustrações dos usuários fornece insights valiosos para informar o design.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    05. Quais são os obstáculos que os usuários enfrentam? o que eles estão tentando fazer?
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    
+                  Ah, os obstáculos que os usuários enfrentam podem ser tão variados quanto as estrelas no céu noturno! Vamos explorar alguns cenários comuns:<br><br>
+
+                   Complexidade Excessiva:
+                  Muitos usuários se debatem com interfaces complexas. Se um sistema é difícil de entender ou navegar, isso se torna um grande obstáculo.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer"  id="contact">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Helix Design</a>
+
+          <p class="footer-text">
+            Conecte-se conosco de maneira direta, encontrando informações de contato acessíveis, seja por e-mail, telefone ou, se preferir, visite-nos em nosso endereço físico. 
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Digite seu e-mail" required class="email-field">
+
+            <button type="submit" class="form-btn">
+              <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Nossos serviços</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Estratégia e pesquisa</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Desenvolvimento Web</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Solução Web</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Merketing digital</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Design de aplicativo</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Desenvolvimento de aplicativos</a>
+          </li>
+
+        </ul>
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Empresa</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Sobre a empresa</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Nossos serviços</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Nosso portfólio</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Nosso blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Últimas Notícias</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Entre em contato conosco</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contate-nos</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+            <address class="contact-link address">
+              4517 Washington Av.Tuira 3995
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="https://wa.me/5511953357757?text=Quero+um+site+com+o+modelo+igual+do+Helix+Design%2C+para+o+meu+com%C3%A9rcio" class="contact-link">+55(11)95335-7757</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="contact-link">helixdesign@gmail.com</a>
+          </li>
+
+          <li class="footer-item">
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; Direitos Reservados -  <a href="#" class="copyright-link">Miquéias Silva</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Política de Privacidade</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Termos de Uso</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/index.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
